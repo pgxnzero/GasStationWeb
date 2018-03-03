@@ -1,18 +1,15 @@
 package com.pgxn.webtest;
 
-/**
- * 用于
- **/
-
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-//为了Servlet能够传值回前台的Jsp要使用request.getRequestDispatcher("").forward();方法，此方法要求必须处理IO异常
-//要使用Servlet必须引入这个两个包
-
+/**
+ * 用于为了Servlet能够传值回前台的Jsp要使用request.getRequestDispatcher("").forward(); 方法， 此方法要求必须处理IO异常要使用Servlet必须引入这个两个包
+ * @author : pgxn
+ **/
 public class Register extends HttpServlet {
 
     @Override
